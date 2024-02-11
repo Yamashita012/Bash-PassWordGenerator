@@ -4,8 +4,7 @@
 echo ""
 echo "      <===============[ SAFE SIMPLE PASSWORD GENERATOR]===============>"
 echo ""
-echo "[+] Enter password length: "
-read PASSWORD_LENGTH
+read -p "[+] Enter password length: " PASSWORD_LENGTH
 echo ""
 
 for p in $(seq 1 5);
